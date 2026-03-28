@@ -111,7 +111,7 @@ chmod g-x drafts/                     # Restrict directory
 
 ### 4. 📓 Incident Handler's Journal
 
-**File:** [`Incident handler_s journal_.docx.pdf`](./Document%20an%20incident%20with%20an%20incident%20handler_s%20journal/respond%20to%20a%20phishing%20incident/Incident%20handler_s%20journal_.docx.pdf)
+**File:** [`Incident handler_s journal_.docx.pdf`](./Document%20an%20incident%20with%20an%20incident%20handler_s%20journal/Incident%20handler_s%20journal_.docx.pdf)
 
 **Description:**  
 A structured journal documenting four cybersecurity incidents analyzed throughout the course. Each entry follows the **5 W's** framework (Who, What, When, Where, Why) and maps to the **NIST Incident Response Lifecycle**.
