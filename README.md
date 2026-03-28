@@ -21,7 +21,7 @@ This repository showcases hands-on projects completed as part of the **Google Cy
 
 ### 1. 🔍 Apply Filters to SQL Queries
 
-**File:** [`Apply_filters_to_SQL_queries.pdf`](./Apply_filters_to_SQL_queries_docx.pdf)
+**File:** [`Apply filters to SQL queries.docx.pdf`](./Apply%20filters%20to%20SQL%20queries.docx.pdf)
 
 **Description:**  
 As a security professional investigating suspicious login activity and employee data, I applied SQL filters to isolate relevant records from a relational database. This included identifying failed logins after business hours, login attempts on specific dates, and access from outside specific regions.
@@ -48,7 +48,7 @@ As a security professional investigating suspicious login activity and employee 
 
 ### 2. 🐍 Algorithm for File Updates in Python
 
-**File:** [`Algorithm_for_file_updates_in_Python.pdf`](./Algorithm_for_file_updates_in_Python_docx.pdf)
+**File:** [`Algorithm for file updates in Python.docx.pdf`](./Algorithm%20for%20file%20updates%20in%20Python.docx.pdf)
 
 **Description:**  
 I developed a Python algorithm to automate the maintenance of an IP address allow list for a healthcare company. The script reads the current allow list, removes unauthorized IP addresses found in a separate remove list, and writes the updated list back to the file — ensuring only authorized users retain network access to restricted patient information.
@@ -84,7 +84,7 @@ def update_file(import_file, remove_list):
 
 ### 3. 🐧 File Permissions in Linux
 
-**File:** [`File_permissions_in_Linux.pdf`](./File_permissions_in_Linux_docx.pdf)
+**Files:** [`File permissions in Linux.docx.pdf`](./Use%20Linux%20commands%20to%20manage%20file%20permissions/File%20permissions%20in%20Linux.docx.pdf) · [`Current file permissions.docx.pdf`](./Use%20Linux%20commands%20to%20manage%20file%20permissions/Current%20file%20permissions.docx.pdf)
 
 **Description:**  
 Working as a security professional on a research team, I audited and corrected file and directory permissions in a Linux environment to align with organizational security policy. I identified overly permissive access, removed unauthorized write access, corrected hidden file permissions, and restricted directory access.
@@ -111,7 +111,7 @@ chmod g-x drafts/                     # Restrict directory
 
 ### 4. 📓 Incident Handler's Journal
 
-**File:** [`Incident_handlers_journal.pdf`](./Incident_handler_s_journal__docx.pdf)
+**File:** [`Incident handler_s journal_.docx.pdf`](./Document%20an%20incident%20with%20an%20incident%20handler_s%20journal/respond%20to%20a%20phishing%20incident/Incident%20handler_s%20journal_.docx.pdf)
 
 **Description:**  
 A structured journal documenting four cybersecurity incidents analyzed throughout the course. Each entry follows the **5 W's** framework (Who, What, When, Where, Why) and maps to the **NIST Incident Response Lifecycle**.
@@ -125,6 +125,11 @@ A structured journal documenting four cybersecurity incidents analyzed throughou
 | 3 | Oct 17, 2025 | Phishing with malicious `.exe` attachment | VirusTotal, Email header analysis | Detection & Analysis |
 | 4 | Oct 18, 2025 | Forced browsing / web app data exfiltration | Web server logs, Vulnerability scanner | Containment & Post-Incident Activity |
 
+**Related files:**
+- [`Alert ticket.docx.pdf`](./Document%20an%20incident%20with%20an%20incident%20handler_s%20journal/respond%20to%20a%20phishing%20incident/Alert%20ticket.docx.pdf)
+- [`Phishing incident response playbook.docx.pdf`](./Document%20an%20incident%20with%20an%20incident%20handler_s%20journal/respond%20to%20a%20phishing%20incident/Phishing%20incident%20response%20playbook.docx.pdf)
+- [`Data breach final report.docx.pdf`](./Document%20an%20incident%20with%20an%20incident%20handler_s%20journal/data%20breach/Data%20breach%20final%20report.docx.pdf)
+
 **Key Takeaways:**
 - Phishing remains the primary attack vector across multiple incident types
 - VirusTotal and hash analysis are critical for rapid malware confirmation
@@ -136,7 +141,7 @@ A structured journal documenting four cybersecurity incidents analyzed throughou
 
 ### 5. 📊 Incident Report Analysis (NIST CSF)
 
-**File:** [`Completed_Incident_report_analysis.pdf`](./Completed_Example_of_an_Incident_report_analysis_docx.pdf)
+**Files:** [`Completed Example of an Incident report analysis.docx.pdf`](./DDoS%20attack%20analysis/Completed%20Example%20of%20an%20Incident%20report%20analysis.docx.pdf) · [`Incident report analysis.docx.pdf`](./DDoS%20attack%20analysis/Incident%20report%20analysis.docx.pdf) · [`Applying the NIST CSF_.docx.pdf`](./DDoS%20attack%20analysis/Applying%20the%20NIST%20CSF_.docx.pdf)
 
 **Description:**  
 A comprehensive incident report analyzing a credential theft and data breach caused by a phishing attack targeting an intern. The report applies the **NIST Cybersecurity Framework (CSF)** across all five functions to document both the incident and the remediation steps taken.
@@ -160,7 +165,7 @@ An intern's credentials were stolen via a phishing link. The attacker used those
 
 ### 6. ✅ Controls and Compliance Checklist (Botium Toys)
 
-**File:** [`Controls_and_compliance_checklist.pdf`](./Controls_and_compliance_checklist_--_reviewed_--.pdf)
+**Files:** [`Controls and compliance checklist -- reviewed --.pdf`](./Conduct%20a%20security%20audit/Controls%20and%20compliance%20checklist%20--%20reviewed%20--.pdf) · [`Control categories.docx.pdf`](./Conduct%20a%20security%20audit/Control%20categories.docx.pdf)
 
 **Description:**  
 A security audit of a fictional company, **Botium Toys**, evaluating existing controls and compliance posture against three major frameworks: **PCI DSS**, **GDPR**, and **SOC Type 1/2**. The checklist identifies gaps and provides prioritized recommendations for the IT Manager.
@@ -187,7 +192,7 @@ Least Privilege · Disaster Recovery · Password Policies · Separation of Dutie
 
 ### 7. 🗄️ Vulnerability Assessment — Database Server
 
-**File:** [`Security_analysis_and_proposal.pdf`](./Security_analysis_and_proposal_docx.pdf)
+**Files:** [`Security analysis and proposal.docx.pdf`](./Analyze%20a%20vulnerable%20system%20for%20a%20small%20business/Security%20analysis%20and%20proposal.docx.pdf) · [`NIST SP 800-30 Rev. 1.docx.pdf`](./Analyze%20a%20vulnerable%20system%20for%20a%20small%20business/NIST%20SP%20800-30%20Rev.%201.docx.pdf)
 
 **Description:**  
 A formal vulnerability assessment of a publicly accessible database server critical to business operations. Threats were identified, scored by likelihood and severity, and a remediation strategy was proposed based on the risk scores.
@@ -230,7 +235,7 @@ A formal vulnerability assessment of a publicly accessible database server criti
 **Google Cybersecurity Professional Certificate**  
 Offered by Google via Coursera — an 8-course program covering foundations of cybersecurity, network security, Linux & SQL, threat analysis, incident response, Python automation, and more.
 
-🔗 [View Certificate Program](https://www.credly.com/badges/850b7bde-8637-4e4f-b9e0-bcb8f5366ba0/linked_in_profile)
+🔗 [View Certificate](https://www.credly.com/badges/850b7bde-8637-4e4f-b9e0-bcb8f5366ba0/linked_in_profile)
 
 ---
 
@@ -239,7 +244,7 @@ Offered by Google via Coursera — an 8-course program covering foundations of c
 **Cristian Fajardo**  
 Open to entry-level cybersecurity analyst and SOC analyst roles.
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin)](www.linkedin.com/in/cristian-fajardo-7132352a6)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/cristian-fajardo-7132352a6)
 [![Email](https://img.shields.io/badge/Email-Contact-EA4335?style=flat-square&logo=gmail)](mailto:cristianfajardo1909@gmail.com)
 
 ---
